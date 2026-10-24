@@ -1,0 +1,20 @@
+# Sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Dependensi & log
+node_modules/
+*.log
+
+# Rahasia (jangan pernah di-commit)
+.env
+.env.*
+
+# File sementara
+*.tmp
+*.bak
