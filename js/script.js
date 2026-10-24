@@ -1,7 +1,7 @@
 /* NARISA WEAR — katalog, galeri, keranjang (CRUD), form pemesanan */
 
 const WHATSAPP_NUMBER = "6287745105747";
-const PRODUCT_PRICE = 50000;
+const PRODUCT_PRICE = 79999;
 const MAX_QTY = 20;
 const CART_KEY = "narisa-cart";
 const PRODUCT_NAME = "Everyday Loose Pants";
