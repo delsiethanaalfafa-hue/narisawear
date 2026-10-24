@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NARISA WEAR — Everyday, Elegantly</title>
+  <meta name="description" content="Temukan loose pants NARISA WEAR untuk gaya sehari-hari yang elegan.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+<a class="logo" href="#">NARISA<span>WEAR.</span></a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#about">About Us</a>
+      <a href="#keranjang">Keranjang (<span id="cart-count">0</span>)</a>
+    </nav>
+    <a href="#collection" class="nav-button">Explore Collection ↗</a>
+  </header>
+
+  <main>
+  <section class="brand-intro">
+    <img
+      src="images/logo-narisawear.jpeg"
+      alt="Logo NARISA WEAR"
+      class="brand-intro-logo"
+    >
+    <p>EVERYDAY, ELEGANTLY</p>
+  </section>
+
+  <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">EFFORTLESS STYLE, EVERY DAY</p>
+        <h1>Elegance in<br><em>Every Move.</em></h1>
+        <p class="intro">
+          Temukan kenyamanan dalam setiap langkah.
+          Loose pants yang simpel, versatile, dan elegan
+          untuk menemani harimu.
+        </p>
+        <a class="primary-button" href="#collection">Discover Collection ↗</a>
+        <p class="small-note">Made for your everyday moments.</p>
+      </div>
+      <div class="hero-image">
+        <img
+          src="images/coklat-mahogany.jpeg"
+          alt="Celana NARISA WEAR"
+        >
+        <span class="image-caption">THE EVERYDAY EDIT · 01</span>
+      </div>
+    </section>
+
+    
+<section class="color-gallery" id="warna">
+    <p class="gallery-label">OUR COLORS</p>
+    <h2>Find Your Perfect Shade</h2>
+    <p class="gallery-description">
+        Geser untuk melihat setiap warna, lalu pilih warna favoritmu.
+    </p>
+
+    <div class="slider" data-slider>
+      <div class="slides">
+        <div class="slide color-item" data-color="Coklat Mahogany">
+          <img src="images/coklat-mahogany.jpeg" alt="Celana warna coklat mahogany">
+          <h3>Mahogany</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Cream">
+          <img src="images/cream.jpeg" alt="Celana warna cream">
+          <h3>Cream</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Denim Blue">
+          <img src="images/denim-blue.jpeg" alt="Celana warna denim blue">
+          <h3>Denim Blue</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Grey">
+          <img src="images/grey.jpeg" alt="Celana warna grey">
+          <h3>Grey</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Hitam">
+          <img src="images/hitam.jpeg" alt="Celana warna hitam">
+          <h3>Black</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Ivory">
+          <img src="images/ivory.jpeg" alt="Celana warna ivory">
+          <h3>Ivory</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Putih">
+          <img src="images/putih.jpeg" alt="Celana warna putih">
+          <h3>Putih</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Soft Coffee">
+          <img src="images/soft-coffe.jpeg" alt="Celana warna soft coffee">
+          <h3>Soft Coffee</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+        <div class="slide color-item" data-color="Soft Grey">
+          <img src="images/soft-grey.jpeg" alt="Celana warna soft grey">
+          <h3>Soft Grey</h3>
+          <button type="button" class="pick-color">Pilih warna ini</button>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button type="button" class="slider-prev" aria-label="Warna sebelumnya">&#8249;</button>
+        <div class="slider-dots"></div>
+        <button type="button" class="slider-next" aria-label="Warna berikutnya">&#8250;</button>
+      </div>
+      <p class="slider-count"></p>
+    </div>
+  </section>
+
+    <section class="collection" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OUR SELECTION</p>
+          <h2>The Loose Pants</h2>
+        </div>
+        <p>One essential piece.<br>Endless ways to wear.</p>
+      </div>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img
+            src="images/hero-narisa.png"
+            alt="Loose pants NARISA WEAR"
+            id="product-image"
+          >
+          <span class="product-tag">THE SIGNATURE PIECE</span>
+        </div>
+        <div class="product-info">
+          <div>
+            <p class="product-category">NARISA WEAR ESSENTIALS</p>
+            <h3>Everyday Loose Pants</h3>
+            <p class="price">Rp50.000</p>
+          </div>
+
+          <div class="option-group">
+  <label>Pilih warna: <strong id="color-label">Coklat Mahogany</strong></label>
+
+  <div class="color-options">
+    <button type="button" class="color-dot active"
+      data-color="Coklat Mahogany" data-image="images/coklat-mahogany.jpeg" aria-label="Coklat Mahogany"
+      style="--swatch:#76513D"></button>
+
+    <button type="button" class="color-dot"
+      data-color="Cream" data-image="images/cream.jpeg" aria-label="Cream"
+      style="--swatch:#E9DDC9"></button>
+
+    <button type="button" class="color-dot"
+      data-color="Denim Blue" data-image="images/denim-blue.jpeg" aria-label="Denim Blue"
+      style="--swatch:#536D85"></button>
+
+    <button type="button" class="color-dot"
+      data-color="Grey" data-image="images/grey.jpeg" aria-label="Grey"
+      style="--swatch:#929292"></button>
+
+    <button type="button" class="color-dot"
+      data-color="Hitam" data-image="images/hitam.jpeg" aria-label="Hitam"
+      style="--swatch:#292725"></button>
+
+    <button type="button" class="color-dot"
+      data-color="Ivory" data-image="images/ivory.jpeg" aria-label="Ivory"
+      style="--swatch:#F0E8D8"></button>
+
+    
+
+    
+<button type="button" class="color-dot"
+  data-color="Putih" data-image="images/putih.jpeg" aria-label="Putih"
+  style="--swatch:#F8F7F2"></button>
+
+<button type="button" class="color-dot"
+  data-color="Soft Coffee" data-image="images/soft-coffe.jpeg" aria-label="Soft Coffee"
+  style="--swatch:#B8A18A"></button>
+
+<button type="button" class="color-dot"
+  data-color="Soft Grey" data-image="images/soft-grey.jpeg" aria-label="Soft Grey"
+  style="--swatch:#A5A5A5"></button>
+  </div>
+</div>
+
+          <div class="option-group">
+            <label for="size">Pilih ukuran</label>
+            <select id="size">
+              <option value="">Pilih ukuran</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </div>
+
+          <button class="primary-button order-button" id="order-button">
+            Pesan via WhatsApp ↗
+          </button>
+          <button type="button" class="secondary-button" id="add-cart">Tambah ke Keranjang</button>
+
+          <a class="secondary-button"
+             href="https://vt.tiktok.com/ZSbPTfrEE/?page=Mall"
+             target="_blank" rel="noopener noreferrer">
+            Lihat Toko NarisaWear ↗
+          </a>
+          <p class="notice"></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="cart-section" id="keranjang">
+      <p class="eyebrow">YOUR CART</p>
+      <h2>Keranjang Belanja</h2>
+      <p class="form-intro">Tambahkan beberapa warna atau ukuran sekaligus, lalu kirim dalam satu pesan.</p>
+
+      <p class="cart-empty" id="cart-empty">Keranjang masih kosong. Pilih warna dan ukuran di atas, lalu klik "Tambah ke Keranjang".</p>
+      <ul class="cart-list" id="cart-list"></ul>
+
+      <div class="cart-footer" id="cart-footer" hidden>
+        <p class="cart-total">Total <strong id="cart-total">Rp0</strong></p>
+        <button type="button" class="primary-button" id="cart-checkout">Checkout via WhatsApp ↗</button>
+        <button type="button" class="link-button" id="cart-clear">Kosongkan keranjang</button>
+      </div>
+    </section>
+
+    <section class="order-form-section" id="form-pesan">
+      <p class="eyebrow">ORDER FORM</p>
+      <h2>Isi Data Pesanan</h2>
+      <p class="form-intro">Isi data di bawah. Setelah valid, pesananmu langsung terkirim ke WhatsApp kami.</p>
+
+      <form class="order-form" id="order-form" novalidate>
+        <div class="field">
+          <label for="f-nama">Nama lengkap</label>
+          <input id="f-nama" name="nama" type="text" autocomplete="name" placeholder="Contoh: Nurul Aisyah">
+          <small class="field-error" id="e-nama"></small>
+        </div>
+
+        <div class="field">
+          <label for="f-wa">Nomor WhatsApp</label>
+          <input id="f-wa" name="wa" type="tel" inputmode="numeric" autocomplete="tel" placeholder="08xxxxxxxxxx">
+          <small class="field-error" id="e-wa"></small>
+        </div>
+
+        <div class="field">
+          <label for="f-kota">Kota</label>
+          <input id="f-kota" name="kota" type="text" autocomplete="address-level2" placeholder="Contoh: Surabaya">
+          <small class="field-error" id="e-kota"></small>
+        </div>
+
+        <div class="field">
+          <label for="f-warna">Warna</label>
+          <select id="f-warna" name="warna">
+            <option value="">Pilih warna</option>
+            <option>Coklat Mahogany</option>
+            <option>Cream</option>
+            <option>Denim Blue</option>
+            <option>Grey</option>
+            <option>Hitam</option>
+            <option>Ivory</option>
+            <option>Putih</option>
+            <option>Soft Coffee</option>
+            <option>Soft Grey</option>
+          </select>
+          <small class="field-error" id="e-warna"></small>
+        </div>
+
+        <div class="field">
+          <label for="f-ukuran">Ukuran</label>
+          <select id="f-ukuran" name="ukuran">
+            <option value="">Pilih ukuran</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+          <small class="field-error" id="e-ukuran"></small>
+        </div>
+
+        <div class="field">
+          <label for="f-jumlah">Jumlah</label>
+          <input id="f-jumlah" name="jumlah" type="number" min="1" max="20" value="1">
+          <small class="field-error" id="e-jumlah"></small>
+        </div>
+
+        <div class="field full">
+          <button type="submit" class="primary-button form-submit">Kirim Pesanan via WhatsApp ↗</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="how-to-order" id="cara-pesan">
+      <p class="eyebrow">HOW TO ORDER</p>
+      <h2>Cara Memesan</h2>
+      <p class="how-intro">Pesan lewat WhatsApp dalam 4 langkah mudah.</p>
+
+      <div class="slider" data-slider>
+      <div class="slides">
+        <div class="slide step">
+          <span class="step-number">1</span>
+          <h3>Pilih warna</h3>
+          <p>Pilih warna favoritmu dari 9 pilihan. Foto produk ikut berganti.</p>
+        </div>
+        <div class="slide step">
+          <span class="step-number">2</span>
+          <h3>Pilih ukuran</h3>
+          <p>Tentukan ukuran S, M, L, atau XL yang paling pas untukmu.</p>
+        </div>
+        <div class="slide step">
+          <span class="step-number">3</span>
+          <h3>Klik pesan</h3>
+          <p>Tekan tombol Pesan via WhatsApp. Pilihanmu sudah terisi otomatis di pesan.</p>
+        </div>
+        <div class="slide step">
+          <span class="step-number">4</span>
+          <h3>Kirim &amp; konfirmasi</h3>
+          <p>Kirim pesannya, lalu kami konfirmasi stok dan detail pesananmu.</p>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button type="button" class="slider-prev" aria-label="Langkah sebelumnya">&#8249;</button>
+        <div class="slider-dots"></div>
+        <button type="button" class="slider-next" aria-label="Langkah berikutnya">&#8250;</button>
+      </div>
+      <p class="slider-count"></p>
+    </div>
+
+      <p class="how-note">Ketersediaan stok dikonfirmasi langsung oleh penjual lewat WhatsApp.</p>
+    </section>
+
+    <section class="about" id="about">
+      <p class="eyebrow">A LITTLE ABOUT US</p>
+      <h2>Less, but better.</h2>
+      <p>NARISA WEAR menghadirkan gaya sederhana yang nyaman dipakai dan mudah dipadukan untuk berbagai momen.</p>
+    </section>
+  </main>
+
+  <section class="social-section">
+    <p class="social-label">CONNECT WITH US</p>
+    <h2>Let's stay connected.</h2>
+    <p class="social-description">
+      Follow NARISA WEAR for everyday inspiration.
+    </p>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/narisawear.id/"
+         target="_blank" rel="noopener noreferrer">
+        <span>◎</span> Instagram ↗
+      </a>
+      <a href="https://www.tiktok.com/@narisawear"
+         target="_blank" rel="noopener noreferrer">
+        <span>♪</span> TikTok ↗
+      </a>
+      <a href="https://wa.me/6287745105747?text=Halo%20NARISA%20WEAR%2C%20aku%20mau%20pesan%20celananya.%20Boleh%20minta%20info%20produk%2C%20warna%2C%20ukuran%2C%20dan%20stok%3F"
+         target="_blank" rel="noopener noreferrer">
+        <span>☏</span> Pesan via WhatsApp ↗
+      </a>
+    </div>
+  </section>
+
+  <footer class="luxury-footer">
+    <div class="footer-monogram">
+      <span class="flower">✿</span>
+      <span>N</span>
+      <span class="flower">✿</span>
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h2>NARISA WEAR</h2>
+        <p class="footer-tagline">TIMELESS STYLE, EVERYDAY COMFORT</p>
+        <p class="footer-description">
+          NARISA WEAR hadir untuk menemani setiap langkahmu,
+          dengan koleksi celana wanita yang nyaman, stylish,
+          dan mudah dipadukan untuk berbagai momen.
+        </p>
+
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/narisawear.id/"
+             target="_blank" rel="noopener noreferrer">
+            <span>◎</span> Instagram
+          </a>
+          <a href="https://vt.tiktok.com/ZSbPTfrEE/?page=Mall"
+             target="_blank" rel="noopener noreferrer">
+            <span>♪</span> TikTok Shop
+          </a>
+          <a href="https://wa.me/6287745105747"
+             target="_blank" rel="noopener noreferrer">
+            <span>☏</span> WhatsApp
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#collection">Shop</a>
+        <a href="#cara-pesan">Cara Pesan</a>
+        <a href="#about">About</a>
+        <a href="#warna">Our Colors</a>
+      </div>
+
+      <div class="footer-column footer-service">
+        <h3>Customer Service</h3>
+        <a href="https://wa.me/6287745105747"
+           target="_blank" rel="noopener noreferrer">
+          ☏ &nbsp; Hubungi kami via WhatsApp
+        </a>
+        <p>⌖ &nbsp; Indonesia</p>
+
+        <div class="service-benefit">
+          <strong>♧ &nbsp; Belanja Aman</strong>
+          <span>Pesan langsung melalui toko kami</span>
+        </div>
+        <div class="service-benefit">
+          <strong>♡ &nbsp; Everyday Comfort</strong>
+          <span>Gaya simpel untuk setiap momen</span>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <p>
+          Temukan gaya simpel dan koleksi terbaru
+          dari NARISA WEAR.
+        </p>
+        <a class="footer-shop-button"
+           href="https://vt.tiktok.com/ZSbPTfrEE/?page=Mall"
+           target="_blank" rel="noopener noreferrer">
+          Lihat Koleksi Kami ↗
+        </a>
+      </div>
+    </div>
+
+    <p class="footer-thanks">Thank you ♡</p>
+
+    <div class="footer-bottom">
+      <span>© 2026 NARISA WEAR. All rights reserved.</span>
+    </div>
+  </footer>
+</body>
+</html>
